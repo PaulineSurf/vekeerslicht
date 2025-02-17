@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="YEC?La+).4(nEN,eV?ac" x="-380" y="-10"><statement name="HANDLER"><block type="set_traffic_light_led" id="khmacXubcRsT4c_C6KNz"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="vM[0gts#9oG]9413C5Ks"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="9:.+*X1ENOQ2Q^{QEhU{" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="set_traffic_light_led" id="c45.bIM;8g8f47uxeH5K"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="`!.3+L;sktDkl*~2iuQ$"><value name="pause"><shadow type="timePicker" id=",d=qI-kNOC2dYnC{E;YV"><field name="ms">500</field></shadow></value><next><block type="set_traffic_light_led" id="$9tZR36EcIQu;cEyFn2L"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="#eYl$l4,#kHMvP4z4-|$"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="set_traffic_light_led" id="!fU7repw1*6$5Q;()]}Q"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id=";I[+?m.eWNuy/@J=LNJ]"><value name="pause"><shadow type="timePicker" id="4?cJF,Aw*`SVBeMK]qL*"><field name="ms">1000</field></shadow></value><next><block type="set_traffic_light_led" id="0~Ol(pFqJYHokL#%|D-n"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="s~(4hQyYz,XAH-DCk!*C"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
